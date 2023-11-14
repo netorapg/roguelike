@@ -2,7 +2,7 @@
 
 Entity* createPlayer(Position start_pos)
 {
-	Entity* newPlaayer = calloc(1, sizeof(Entity));
+	Entity* newPlayer = calloc(1, sizeof(Entity));
 
 	newPlayer->pos.y = start_pos.y;
 	newPlayer->pos.x = start_pos.x;

@@ -25,7 +25,7 @@ int main(void)
 
 		handleInput(ch);
 		clear();
-		mvaddch(palyer->pos.y, player->pos.x, palyer->ch);
+		mvaddch(player->pos.y, player->pos.x, player->ch);
 	}
 	endwin();
 
