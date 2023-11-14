@@ -12,6 +12,12 @@ typedef struct
 
  typedef struct
  {
+  char ch;
+  bool walkable;
+ } Tile;
+
+ typedef struct
+ {
   Position pos;
   char ch;
  } Entity;
