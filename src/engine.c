@@ -25,3 +25,9 @@ void gameLoop(void)
     mvaddch(player->pos.y, player->pos.x, player->ch);
  }
 }
+
+void closeGame(void)
+{
+ endwin();
+ free(player);
+}
