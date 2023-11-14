@@ -6,15 +6,20 @@
 
 typedef struct
 {
-	int y;
-	int x;
+ int y;
+ int x;
 } Position;
 
-typedef struct
-{
-	Position pos;
-	char ch;
-} Entity;
+ typedef struct
+ {
+  Position pos;
+  char ch;
+ } Entity;
+
+//engine.c functions
+void cursesSetup(void);
+void gameLoop(void);
+void closeGame(void);
 
 //player.c functions
 Entity* createPlayer(Position start_pos);
